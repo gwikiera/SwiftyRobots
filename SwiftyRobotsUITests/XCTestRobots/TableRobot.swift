@@ -1,5 +1,5 @@
 /*
- * Created by Grzegorz Wikiera on 05.02.2018.
+ * Created by Grzegorz Wikiera on 09.02.2018.
  * Copyright (c) 2018 Grzegorz Wikiera <gwikiera@gmail.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -23,13 +23,6 @@
 
 import UIKit
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class TableRobot: Robot {
 
-    var window: UIWindow?
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        return true
-    }
 }
-

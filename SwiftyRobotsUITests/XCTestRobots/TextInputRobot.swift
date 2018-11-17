@@ -1,5 +1,5 @@
 /*
- * Created by Grzegorz Wikiera on 05.02.2018.
+ * Created by Grzegorz Wikiera on 09.02.2018.
  * Copyright (c) 2018 Grzegorz Wikiera <gwikiera@gmail.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,15 +21,18 @@
  * THE SOFTWARE.
  */
 
-import UIKit
+import XCTest
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class TextInputRobot: Robot {
+    static let textInputTypes: [XCUIElement.ElementType] = [.textField, .textView, .secureTextField, .searchField]
 
-    var window: UIWindow?
+    required init(query: XCUIElementQuery, file: StaticString = #file, line: UInt = #line) {
+        XCTAssert(TextInputRobot.textInputTypes.contains(query.element.elementType), "Wrong element type.", file: file, line: line)
+        super.init(query: query, file: file, line: line)
+    }
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        return true
+    func type(text: String, file: StaticString = #file, line: UInt = #line) {
+        query.element.typeText(text)
+        XCTAssert((query.element.value as? String)?.contains(text) ?? false, "Text \"\(text)\" was not typed.", file: file, line: line)
     }
 }
-

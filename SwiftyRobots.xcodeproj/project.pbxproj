@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D04887F202BA568007153FC /* RobotsListRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D04887E202BA568007153FC /* RobotsListRobot.swift */; };
+		2D048881202BA76F007153FC /* AddRobotFormRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D048880202BA76F007153FC /* AddRobotFormRobot.swift */; };
+		2D048883202BA897007153FC /* RobotsListItemRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D048882202BA897007153FC /* RobotsListItemRobot.swift */; };
+		2D048885202BA919007153FC /* RobotDetailsRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D048884202BA919007153FC /* RobotDetailsRobot.swift */; };
 		2D3FB70D2028ECDB0092D9E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FB70C2028ECDB0092D9E7 /* AppDelegate.swift */; };
-		2D3FB70F2028ECDB0092D9E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FB70E2028ECDB0092D9E7 /* ViewController.swift */; };
 		2D3FB7122028ECDB0092D9E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3FB7102028ECDB0092D9E7 /* Main.storyboard */; };
 		2D3FB7142028ECDB0092D9E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3FB7132028ECDB0092D9E7 /* Assets.xcassets */; };
 		2D3FB7172028ECDB0092D9E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3FB7152028ECDB0092D9E7 /* LaunchScreen.storyboard */; };
 		2D3FB7222028ECDC0092D9E7 /* SwiftyRobotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FB7212028ECDC0092D9E7 /* SwiftyRobotsUITests.swift */; };
+		2D3FB72E2028FB5D0092D9E7 /* RobotsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FB72D2028FB5D0092D9E7 /* RobotsListViewController.swift */; };
+		2D3FB737202903860092D9E7 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FB736202903860092D9E7 /* Robot.swift */; };
+		2D3FB73A202903F40092D9E7 /* RobotsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FB739202903F40092D9E7 /* RobotsDataManager.swift */; };
+		2D9FE8B720290E1B006649C3 /* RobotDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FE8B620290E1B006649C3 /* RobotDetailsViewController.swift */; };
+		EB4B6DBA202DDB04005F0CEE /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6DB9202DDB04005F0CEE /* Robot.swift */; };
+		EB4B6DBE202DEC66005F0CEE /* TextInputRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6DBD202DEC66005F0CEE /* TextInputRobot.swift */; };
+		EB4B6DC0202DF24F005F0CEE /* TableRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B6DBF202DF24F005F0CEE /* TableRobot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D04887E202BA568007153FC /* RobotsListRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotsListRobot.swift; sourceTree = "<group>"; };
+		2D048880202BA76F007153FC /* AddRobotFormRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRobotFormRobot.swift; sourceTree = "<group>"; };
+		2D048882202BA897007153FC /* RobotsListItemRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotsListItemRobot.swift; sourceTree = "<group>"; };
+		2D048884202BA919007153FC /* RobotDetailsRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotDetailsRobot.swift; sourceTree = "<group>"; };
 		2D3FB7092028ECDB0092D9E7 /* SwiftyRobots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyRobots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3FB70C2028ECDB0092D9E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D3FB70E2028ECDB0092D9E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D3FB7112028ECDB0092D9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D3FB7132028ECDB0092D9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D3FB7162028ECDB0092D9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +49,13 @@
 		2D3FB71D2028ECDC0092D9E7 /* SwiftyRobotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyRobotsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3FB7212028ECDC0092D9E7 /* SwiftyRobotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyRobotsUITests.swift; sourceTree = "<group>"; };
 		2D3FB7232028ECDC0092D9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3FB72D2028FB5D0092D9E7 /* RobotsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotsListViewController.swift; sourceTree = "<group>"; };
+		2D3FB736202903860092D9E7 /* Robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		2D3FB739202903F40092D9E7 /* RobotsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotsDataManager.swift; sourceTree = "<group>"; };
+		2D9FE8B620290E1B006649C3 /* RobotDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotDetailsViewController.swift; sourceTree = "<group>"; };
+		EB4B6DB9202DDB04005F0CEE /* Robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		EB4B6DBD202DEC66005F0CEE /* TextInputRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputRobot.swift; sourceTree = "<group>"; };
+		EB4B6DBF202DF24F005F0CEE /* TableRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRobot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D04887D202BA4D3007153FC /* Robots */ = {
+			isa = PBXGroup;
+			children = (
+				2D04887E202BA568007153FC /* RobotsListRobot.swift */,
+				2D048882202BA897007153FC /* RobotsListItemRobot.swift */,
+				2D048880202BA76F007153FC /* AddRobotFormRobot.swift */,
+				2D048884202BA919007153FC /* RobotDetailsRobot.swift */,
+			);
+			path = Robots;
+			sourceTree = "<group>";
+		};
 		2D3FB7002028ECDB0092D9E7 = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				2D3FB70C2028ECDB0092D9E7 /* AppDelegate.swift */,
-				2D3FB70E2028ECDB0092D9E7 /* ViewController.swift */,
+				2D3FB735202903710092D9E7 /* Model */,
+				2D3FB738202903DA0092D9E7 /* DataManager */,
+				2D3FB72C2028FB350092D9E7 /* ViewControllers */,
 				2D3FB7102028ECDB0092D9E7 /* Main.storyboard */,
 				2D3FB7132028ECDB0092D9E7 /* Assets.xcassets */,
 				2D3FB7152028ECDB0092D9E7 /* LaunchScreen.storyboard */,
@@ -90,10 +123,47 @@
 		2D3FB7202028ECDC0092D9E7 /* SwiftyRobotsUITests */ = {
 			isa = PBXGroup;
 			children = (
+				EB4B6DB8202DDAE2005F0CEE /* XCTestRobots */,
+				2D04887D202BA4D3007153FC /* Robots */,
 				2D3FB7212028ECDC0092D9E7 /* SwiftyRobotsUITests.swift */,
 				2D3FB7232028ECDC0092D9E7 /* Info.plist */,
 			);
 			path = SwiftyRobotsUITests;
+			sourceTree = "<group>";
+		};
+		2D3FB72C2028FB350092D9E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D3FB72D2028FB5D0092D9E7 /* RobotsListViewController.swift */,
+				2D9FE8B620290E1B006649C3 /* RobotDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2D3FB735202903710092D9E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D3FB736202903860092D9E7 /* Robot.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D3FB738202903DA0092D9E7 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2D3FB739202903F40092D9E7 /* RobotsDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		EB4B6DB8202DDAE2005F0CEE /* XCTestRobots */ = {
+			isa = PBXGroup;
+			children = (
+				EB4B6DB9202DDB04005F0CEE /* Robot.swift */,
+				EB4B6DBD202DEC66005F0CEE /* TextInputRobot.swift */,
+				EB4B6DBF202DF24F005F0CEE /* TableRobot.swift */,
+			);
+			path = XCTestRobots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,15 +211,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Grzegorz Wikiera";
 				TargetAttributes = {
 					2D3FB7082028ECDB0092D9E7 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 					2D3FB71C2028ECDC0092D9E7 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D3FB7082028ECDB0092D9E7;
 					};
@@ -199,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D3FB70F2028ECDB0092D9E7 /* ViewController.swift in Sources */,
+				2D3FB73A202903F40092D9E7 /* RobotsDataManager.swift in Sources */,
 				2D3FB70D2028ECDB0092D9E7 /* AppDelegate.swift in Sources */,
+				2D3FB737202903860092D9E7 /* Robot.swift in Sources */,
+				2D3FB72E2028FB5D0092D9E7 /* RobotsListViewController.swift in Sources */,
+				2D9FE8B720290E1B006649C3 /* RobotDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +284,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D3FB7222028ECDC0092D9E7 /* SwiftyRobotsUITests.swift in Sources */,
+				EB4B6DC0202DF24F005F0CEE /* TableRobot.swift in Sources */,
+				2D048881202BA76F007153FC /* AddRobotFormRobot.swift in Sources */,
+				2D048883202BA897007153FC /* RobotsListItemRobot.swift in Sources */,
+				2D048885202BA919007153FC /* RobotDetailsRobot.swift in Sources */,
+				EB4B6DBA202DDB04005F0CEE /* Robot.swift in Sources */,
+				2D04887F202BA568007153FC /* RobotsListRobot.swift in Sources */,
+				EB4B6DBE202DEC66005F0CEE /* TextInputRobot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +338,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -263,6 +346,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -313,6 +397,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -320,6 +405,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -358,7 +444,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gwikiera.SwiftyRobots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -372,7 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gwikiera.SwiftyRobots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -386,7 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gwikiera.SwiftyRobotsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SwiftyRobots;
 			};
@@ -401,7 +487,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gwikiera.SwiftyRobotsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SwiftyRobots;
 			};

@@ -1,5 +1,5 @@
 /*
- * Created by Grzegorz Wikiera on 05.02.2018.
+ * Created by Grzegorz Wikiera on 07.02.2018.
  * Copyright (c) 2018 Grzegorz Wikiera <gwikiera@gmail.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -8,10 +8,10 @@
  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  * copies of the Software, and to permit persons to whom the Software is
  * furnished to do so, subject to the following conditions:
- *
+ * 
  * The above copyright notice and this permission notice shall be included in
  * all copies or substantial portions of the Software.
- *
+ * 
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -21,15 +21,19 @@
  * THE SOFTWARE.
  */
 
-import UIKit
+import XCTest
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        return true
-    }
+func addRobotForm(_ closure: (AddRobotFormRobot) -> Void) {
+    let robot = AddRobotFormRobot(query: XCUIApplication().alerts)
+    closure(robot)
 }
 
+class AddRobotFormRobot: Robot {
+    func typeText(_ text: String) {
+        TextInputRobot(query: query.textFields).type(text: text)
+    }
+    
+    func tapOk() {
+        button("OK").tap()
+    }
+}
