@@ -1,3 +1,4 @@
 language: objective-c
 script: 
   - xcodebuild clean test -project SwiftyRobots.xcodeproj -scheme SwiftyRobots -destination "name=iPhone 6 Plus"
+osx_image: xcode10
