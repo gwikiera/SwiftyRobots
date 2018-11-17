@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gwikiera/SwiftyRobots.svg?branch=develop)](https://travis-ci.org/gwikiera/SwiftyRobots)
+
 SwiftyRobots
 ======
 
